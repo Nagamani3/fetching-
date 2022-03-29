@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+   <div id="content">
+      
+
+<select name="status" id="status" aria-placeholder="select">
+  <option value="active" id ="active">active</option>
+  <option value="retired">retired</option>
+  <option value="unknown">unknown</option>
+  <option value="destroyed">destroyed</option>
+</select>
+<button>load</button>
+       <table>
+           <thead>
+               <tr>
+                   <th>capsule id</th>
+                   <th>no of mission</th>
+                   <th>details</th>
+               </tr>
+           </thead>
+           <tbody id = "tbody">
+
+           </tbody>
+       </table>
+   </div>
+    <script src="fetch.js"></script>
+</body>
+</html>

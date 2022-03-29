@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+#content table{
+    border: 1px solid black;
+}
+#content{
+    margin:130px
+}
+#content  table thead tr td{
+ border: 1px solid black;
+}
